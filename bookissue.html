@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book Issue</title>
+    <link rel="stylesheet" href="styles9.css" />
+    <script>
+      function myFunction() {
+        alert(" If you exceed more than 7 days, you will be fined!");
+      }
+    </script>
+  </head>
+  <body>
+    <form>
+      <div class="container">
+        <h1>Book Issue</h1>
+
+        <br />
+
+        <input
+          type="text"
+          placeholder="Name of student"
+          name="sname"
+          required
+        />
+        <br />
+        <input
+          type="text"
+          placeholder="Name of book"
+          name="bookname"
+          required
+        />
+        <br />
+        <input
+          type="text"
+          placeholder="Name of author"
+          name="authorname"
+          required
+        />
+        <br />
+        <br />
+        Subject:
+        <select name="maths">
+          <option value="a">Mathematics</option>
+          <option value="b">Chemistry</option>
+          <option value="c">Physics</option>
+        </select>
+        <br />
+        <br />
+        Date of issue: <input type="date" id="f1" value="date" />
+        <br />
+        <br />
+        Number of days: <input type="radio" name="No of days" value="1" />1
+        <input type="radio" name="No of days" value="2" />2
+        <input type="radio" name="No of days" value="3" />3
+        <input type="radio" name="No of days" value="4" />4
+        <input type="radio" name="No of days" value="5" />5
+        <input type="radio" name="No of days" value="6" />6
+        <input type="radio" name="No of days" value="7" />7
+        <br />
+
+        <br />
+        <input
+          type="number"
+          placeholder="Number of books"
+          id="f2"
+          value="number"
+        /><br />
+        <br />
+
+        <button class="btn1" onclick="myFunction()">NOTE</button>
+        <br />
+      </div>
+    </form>
+  </body>
+</html>

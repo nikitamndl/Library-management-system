@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SignUp</title>
+    <link rel="stylesheet" href="styles3.css" />
+    <script>
+      function signup() {
+        alert("Account created successfully!");
+        window.open("project.html");
+      }
+    </script>
+  </head>
+  <body>
+    <form>
+      <div class="container">
+        <h1>Sign Up</h1>
+        <p>Please fill in this form to create an account.</p>
+        <br />
+      
+        <input type="text" placeholder="First Name" name="fname" required />
+        <input type="text" placeholder="Last Name" name="lname" required />
+        <input type="text" placeholder="Enter Email" name="email" required />
+        <input type="text" placeholder="User Name" name="uname" required />
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+          required
+        />
+
+        <input
+          type="password"
+          placeholder="Repeat Password"
+          name="psw-repeat"
+          required
+        />
+
+        <div>
+          <button type="submit" onclick="signup()" class="btn1">Sign Up</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book Return</title>
+    <link rel="stylesheet" href="styles10.css" />
+    <script>
+      function check(form) {
+        if (form.data.value < 0) {
+          alert("Please enter the correct positive number");
+        }
+        if (form.data.value <= 7) {
+          document.write("Thank You! Have a nice day!");
+        } else {
+          var n = form.data.value - 7;
+          var y = n * 10;
+          document.write("Sorry! You have to pay a fine of " + y + " rupees.");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h1>Book Return</h1>
+        <p>
+          Please enter the number of days forwhich the book was issued:<br />
+        </p>
+
+        <input type="number" id="f2" name="data" />
+        <br />
+        <button class="btn1" onclick="check(this.form)">SUBMIT</button>
+      </form>
+    </div>
+  </body>
+</html>

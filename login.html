@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LogIn</title>
+    <link rel="stylesheet" href="styles3.css" />
+    <script>
+      var user = ["tanuja", "nikita", "aditi"];
+      var pass = ["babibabi", "niki138", "myself12"];
+      var i,
+        j = 0;
+      function check(form) {
+        for (i = 0; i < 3; i++) {
+          if (form.uname.value == user[i] && form.psw.value == pass[i]) {
+            j = j + 1;
+            window.open("project.html");
+          }
+        }
+        if (j == 0) {
+          alert("Wrong username or password");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <form>
+      <div class="container">
+        <h1>Login</h1>
+        <p>Please fill in this form to log in to your account.</p>
+        <br />
+
+        <input type="text" placeholder="User Name" name="uname" required />
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+          required
+        />
+
+        <div>
+          <button type="submit" onclick="check(this.form)" class="btn1">
+            Login
+          </button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

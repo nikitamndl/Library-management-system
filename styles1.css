@@ -1,0 +1,38 @@
+body {
+  background-image: url("pictures/welcome.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15rem;
+  font-size: 4rem;
+}
+a {
+  background-color: blue;
+  color: wheat;
+  margin-top: 5rem;
+  border: 1px solid blue;
+  border-radius: 0.6rem;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+.btn1 {
+  margin-left: 37rem;
+  margin-right: 3rem;
+}
+.box {
+  padding-bottom: 15rem;
+  
+  background-color: rgba(240, 240, 240, 0.4);
+}

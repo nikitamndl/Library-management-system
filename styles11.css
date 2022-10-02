@@ -1,0 +1,47 @@
+*{
+    font-family: 'Hind Siliguri', sans-serif;
+  }
+  .background {
+    background-image: url("pictures/para-clinical.jpeg");
+    height: 650px;
+    width: 100%;
+    margin: 0;
+  }
+  .transbox {
+    margin: 0;
+    background-color: rgba(240, 240, 240, 0.6);
+  
+    padding: 10.7rem;
+    
+    text-align: center;
+    font-size: 4rem;
+    color: black;
+    
+  }
+  table,
+  th,
+  td {
+    border: 3px;
+    border-collapse: collapse;
+  }
+  table {
+    width: 50%;
+  }
+  th,
+  td {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  table {
+    background-color: rgba(240, 240, 240, 0.7);
+    margin-left: 25%;
+    margin-right: 25%;
+  
+    font-size: 1.2rem;
+  }
+  .box {
+    background-color: black;
+  }
+  

@@ -1,0 +1,28 @@
+table,
+th,
+td {
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 15px;
+}
+table {
+  background-color: rgba(240, 240, 240, 0.7);
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10%;
+  font-size: 2rem;
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+body {
+  background-image: url("pictures/rules2.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
